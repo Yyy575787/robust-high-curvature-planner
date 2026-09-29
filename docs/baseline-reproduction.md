@@ -1,6 +1,6 @@
-# CommandRoad Reactive Planner 基线复现说明
+# CommonRoad Reactive Planner 基线复现说明
 
-## 1.复现目标
+## 1. 复现目标
 
 本说明用于复现 https://github.com/CommonRoad/commonroad-reactive-planner 官方示例：
 
@@ -85,11 +85,11 @@ baseline/commonroad-reactive-planner
 
 | 图 | 应观察什么 |
 |---|---|
-| [轨迹图](output/run_analysis/20260929_ZAM_Over-1_1/01_trajectory.png) | 如何绕障、车身占用和目标位置 |
-| [加速度一致性](output/run_analysis/20260929_ZAM_Over-1_1/02_acceleration_check.png) | 规划加速度与速度差分是否一致 |
-| [状态曲线](output/run_analysis/20260929_ZAM_Over-1_1/03_states.png) | 位置、转角、速度、航向和横摆角速度 |
-| [状态重建误差](output/run_analysis/20260929_ZAM_Over-1_1/04_state_errors.png) | 车辆模型能否重建相邻状态转移 |
-| [控制输入](output/run_analysis/20260929_ZAM_Over-1_1/05_inputs.png) | 转角变化率、纵向加速度及其边界 |
+| [轨迹图](../baseline/commonroad-reactive-planner/output/run_analysis/20260929_ZAM_Over-1_1/01_trajectory.png) | 如何绕障、车身占用和目标位置 |
+| [加速度一致性](../baseline/commonroad-reactive-planner/output/run_analysis/20260929_ZAM_Over-1_1/02_acceleration_check.png) | 规划加速度与速度差分是否一致 |
+| [状态曲线](../baseline/commonroad-reactive-planner/output/run_analysis/20260929_ZAM_Over-1_1/03_states.png) | 位置、转角、速度、航向和横摆角速度 |
+| [状态重建误差](../baseline/commonroad-reactive-planner/output/run_analysis/20260929_ZAM_Over-1_1/04_state_errors.png) | 车辆模型能否重建相邻状态转移 |
+| [控制输入](../baseline/commonroad-reactive-planner/output/run_analysis/20260929_ZAM_Over-1_1/05_inputs.png) | 转角变化率、纵向加速度及其边界 |
 
 
 ## 6. 已知限制
