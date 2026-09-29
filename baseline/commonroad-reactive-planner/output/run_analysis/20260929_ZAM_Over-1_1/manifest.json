@@ -1,0 +1,21 @@
+{
+  "upstream_commit": "6f2f0d91d4b9370f8e716349833308271365e7d1",
+  "package": "commonroad-reactive-planner==2025.1",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "scenario": "example_scenarios/ZAM_Over-1_1.xml",
+  "scenario_sha256": "343ec7f9e8cf0edc15d77bab732babc2b4c97ad6051ca1f171375ec4c24d38b5",
+  "config_sha256": "a0641bea60c8c2cdd0b3b5eec4085014ac79134b01d804cb98b00f46a9674f65",
+  "command": "env -u PYTHONPATH PYTHONNOUSERSITE=1 MPLBACKEND=Agg python -u run_planner.py",
+  "environment": "commonroad-py310",
+  "pip_check": "No broken requirements found in isolated environment",
+  "notes": [
+    "No repository source or configuration changes.",
+    "run.log and run_metrics.json are from direct entry-point run.",
+    "states.csv, PNG figures and summary.json are from supplemental in-memory instrumentation of same entry point, with unchanged planning configuration and logic.",
+    "summary.json cycle timings describe the supplemental run, not the direct run.",
+    "Captured state CSVs were byte-identical between normal-shell and isolated-environment supplemental runs.",
+    "Original plotting code labels acceleration plot horizontal axis as seconds but supplies integer timestep indexes; multiply by 0.1 for seconds.",
+    "output/ is git-ignored. These artifacts have not been submitted to GitHub."
+  ]
+}

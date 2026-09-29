@@ -1,0 +1,13 @@
+{
+  "source": "run.log; isolated environment, unmodified run_planner.py",
+  "planning_cycles": 9,
+  "samples_total": 1080,
+  "kinematic_rejections_total": 666,
+  "collision_rejections_before_early_exit_total": 132,
+  "planning_ms_mean": 69.94177777777777,
+  "planning_ms_p95": 155.33623999999995,
+  "planning_ms_max": 178.6582,
+  "planning_ms_sum": 629.4759999999999,
+  "elapsed_seconds": 2.05,
+  "exit_status": 0
+}

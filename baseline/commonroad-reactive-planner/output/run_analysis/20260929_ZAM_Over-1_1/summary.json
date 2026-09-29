@@ -1,0 +1,128 @@
+{
+  "scenario": "ZAM_Over-1_1",
+  "scenario_dt": 0.1,
+  "planning_problem_id": 1,
+  "states": 28,
+  "final_time_step": 27,
+  "simulation_seconds": 2.7,
+  "goal_reached": true,
+  "feasible_transitions": 27,
+  "total_transitions": 27,
+  "first_center_position": [
+    29.9948,
+    -1.1501
+  ],
+  "final_center_position": [
+    83.27435633018972,
+    3.453053745850412
+  ],
+  "distance_center_m": 53.65441770262196,
+  "speed_min": 19.71619606508169,
+  "speed_max": 20.026088968831935,
+  "speed_final": 19.71619606508169,
+  "acceleration_min": -0.5483005999061019,
+  "acceleration_max": 0.3014246319699668,
+  "abs_curvature_max": 0.01807380664513161,
+  "abs_lateral_acceleration_estimate_max": 7.054459988302723,
+  "reference_abs_curvature_max": 0.008517164337526587,
+  "lanelets": 2,
+  "static_obstacles": 1,
+  "dynamic_obstacles": 0,
+  "obstacles": [
+    {
+      "id": 1402,
+      "role": "ObstacleRole.STATIC",
+      "type": "ObstacleType.UNKNOWN",
+      "position": [
+        59.948,
+        0.48323
+      ],
+      "velocity": 0.0
+    }
+  ],
+  "goals": [
+    "CustomState(time_step=<commonroad.common.util.Interval object at 0x71d57e8cb700>)"
+  ],
+  "dt": 0.1,
+  "horizon": 2.0,
+  "replanning_frequency": 3,
+  "vehicle": {
+    "length": 4.508,
+    "width": 1.61,
+    "wheelbase": 2.5789128
+  },
+  "cycles": [
+    {
+      "step": 0,
+      "samples": 120,
+      "kinematic_rejected": 56,
+      "collision_rejected": 41,
+      "planning_seconds": 0.17188228400027583,
+      "success": true
+    },
+    {
+      "step": 3,
+      "samples": 120,
+      "kinematic_rejected": 77,
+      "collision_rejected": 27,
+      "planning_seconds": 0.11507102599989594,
+      "success": true
+    },
+    {
+      "step": 6,
+      "samples": 120,
+      "kinematic_rejected": 81,
+      "collision_rejected": 21,
+      "planning_seconds": 0.08109160299954965,
+      "success": true
+    },
+    {
+      "step": 9,
+      "samples": 120,
+      "kinematic_rejected": 81,
+      "collision_rejected": 21,
+      "planning_seconds": 0.0675622859998839,
+      "success": true
+    },
+    {
+      "step": 12,
+      "samples": 120,
+      "kinematic_rejected": 77,
+      "collision_rejected": 22,
+      "planning_seconds": 0.04939892600032181,
+      "success": true
+    },
+    {
+      "step": 15,
+      "samples": 120,
+      "kinematic_rejected": 72,
+      "collision_rejected": 0,
+      "planning_seconds": 0.034333238999352034,
+      "success": true
+    },
+    {
+      "step": 18,
+      "samples": 120,
+      "kinematic_rejected": 77,
+      "collision_rejected": 0,
+      "planning_seconds": 0.03374908600017079,
+      "success": true
+    },
+    {
+      "step": 21,
+      "samples": 120,
+      "kinematic_rejected": 75,
+      "collision_rejected": 0,
+      "planning_seconds": 0.031933700000081444,
+      "success": true
+    },
+    {
+      "step": 24,
+      "samples": 120,
+      "kinematic_rejected": 70,
+      "collision_rejected": 0,
+      "planning_seconds": 0.03486990000055812,
+      "success": true
+    }
+  ]
+}
