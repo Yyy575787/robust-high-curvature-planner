@@ -200,12 +200,12 @@ robust-high-curvature-planner/
 
 启动阶段的验收清单：
 
-- [ ] 创建并关联 GitHub 项目仓库。
+- [x] 创建并关联 GitHub 项目仓库。
 - [x] 在 README 中明确背景、问题、假设、基线、指标与 12 周里程碑。
-- [ ] 获取并固定 CommonRoad Reactive Planner 基线版本。
-- [ ] 按官方依赖创建独立 Conda 环境。
-- [ ] 跑通官方示例，保存终端日志、轨迹图或视频、配置和实际命令。
-- [ ] 补充经过验证的安装、运行和结果检查步骤，确认示例能够重复运行。
+- [x] 获取并固定 CommonRoad Reactive Planner 基线版本。
+- [x] 按官方依赖创建独立 Conda 环境。
+- [x] 跑通官方示例，保存终端日志、轨迹图或视频、配置和实际命令。
+- [x] 补充经过验证的安装、运行和结果检查步骤，确认示例能够重复运行。
 - [ ] 在上述复现完成后提交：`chore: initialize research project and reproduce official example`。
 
 ## 8. 每周工作节奏与研究纪律
